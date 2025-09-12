@@ -114,7 +114,7 @@ nav ul li {
 /* about part */
 
 .main-hero{
-    width: 1500px;
+    width: 1400px;
     margin: 0 auto;
 }
 
@@ -138,17 +138,16 @@ nav ul li {
 }
 
 .about-description{
+    font-family: work Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align:center;
+    margin-bottom: 45px;
+    padding-left: 156px;
+    padding-right: 157px;
     color: var(--Dark 03, rgba(117, 117, 117, 1));
-
-font-family: work Sans;
-font-size: 18px;
-font-weight: 400;
-line-height: 30px;
-letter-spacing: 0%;
-text-align:justify;
-margin-bottom: 45px;
-padding-left: 156px;
-padding-right: 157px;
 }
 
 .about-items{
@@ -178,4 +177,34 @@ item-2{
 
 }
 
+/* Skills Style */
+.cv-skills{
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+}
+.skill{
+    width: 270px;
+    height: 377px;
+    border-radius: 5px;
+    padding: 40px 30px 33px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    margin-bottom: 130px;
+}
+
+.skill h5{
+    font-size: 17px;
+    font-family: work sans;
+    font-weight: 600;
+    line-height: 30px;
+    margin-top: 28px;
+
+}
+.skill p{
+     font-family: work Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+}
 
