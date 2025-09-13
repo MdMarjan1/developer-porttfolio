@@ -219,20 +219,17 @@ item-2{
 }
 .resume-head{
     display: flex;
-    /* justify-content: space-around; */
     justify-content: center;
     gap: 30px;
 }
-/* .resume-colume{
-    width: 50%;
-} */
+
 .resume-colume-tittle{
     font-family: work sans;
     font-size: 30px;
     font-weight: 700;
     line-height: 100%;
     letter-spacing: 0%;
-    /* margin-bottom: 30px; */
+    
 }
 .experience-tittle{
     font-family: work sans;
@@ -263,7 +260,7 @@ item-2{
     line-height: 28px;
     letter-spacing: 0%;
     margin-bottom: 29px;
-    /* width: 511px; */
+    
 }
 
 .btn-center{
